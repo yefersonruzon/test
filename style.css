@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Light', sans-serif;
+
+}
+.main_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.main_section{
+    background-size: contain;
+    background-position: bottom;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_section .main_title{
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 65px;
+}
+.main_section .main_title span{
+    color: #00F700;
+}
+.main_section header img{
+    width: 190px;
+    margin: 40px 65px;
+}
+.svgBg img{
+    width: 380px;
+}
+.form_section{
+    width: 40%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_section form{
+    width: 65%;
+    z-index: 5;
+}
+.form_section form .form_title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.input_container{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+}
+#email_input_container{
+    margin-top: 50px;
+}
+#password_input_container{
+    margin-bottom: 14px;
+}
+.input_container input{
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: none;
+    background: #0000004b;
+    color: #fff;
+
+}
+.input_container input:focus{
+    outline: none;
+}
+.input_container label{
+    margin-bottom: 8px;
+    color: #bbbbbb;
+}
+.flex_input_checkbox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 60px;
+}
+.flex_input_checkbox a{
+    color: #00F700;
+    text-decoration: none;
+}
+.form_btn{
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    background: #00F700;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.bg_decoration{
+    background: rgb(0,247,0);
+    background: radial-gradient(circle, rgba(0, 247, 0, 0.726) 0%, #000 60%);     
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    height: 50vh;
+
+}
+.bg_decoration2{
+    background: rgb(74,68,255);
+    background: radial-gradient(circle, rgba(74,68,255,1) 0%, #000 60%); 
+    position: absolute;
+    bottom:5px;
+    width: 100%;
+    height: 50vh;
+}
+
+.form_cotainer{
+    width: 98%;
+    height: 98%;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    background: #25252575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
